@@ -13,6 +13,7 @@ html{
 .cover-img {
     /* The image used */
     background-image: url("/Images/hero-cover.3.png" ); 
+    background: linear-gradient(to top, #252B42 50% );
   
     height: 800px;
   
@@ -33,96 +34,3 @@ html{
     color: #f8f9ff;
     
 }
-.Brand h1{
-    align-content:space-between;
-    text-align: justify;
-    text-align-last: left;
-    color: #f8f9ff;
-    margin-left: 0%;
-    display: flex;
-    
-    
-}
-.nav-container
-{
-    
-    font-style: normal;
-    display: flex;
-    width: 100%;
-    height: 10vh;
-    align-items: center;
-    justify-content: space-between;
-    padding: 4px 4px;
-    text-transform: none;
-    letter-spacing: 1px;
-    position:absolute;
-    text-decoration: none;
-    align-content: space-between;
-    top: 0px;
-    left: 0px;
-    
-}
-.topnav-right{
-    display:inline-block;
-    justify-content: space-between;
-    margin-right: 10px;
-
-}
-.nav-responsive
-{ 
-    display: none;
-
-}
-.nav-responsive ul li a{
-    color: #f8f9ff;
-}
-.nav-container ul
-{
-  list-style:none;
-  text-decoration: none;
-  color: #f8f9ff;
-  position: relative;
-}
-.nav-container ul li
-{
- display: inline;
- font-weight: bold;
- padding: 0 1.3px ;
- text-decoration: none;
-
-
-}
-.nav-container ul li a:hover
-{
-  color:#f00606 ;
-}
-.login{
-    text-align:justify;
-    justify-items: right;
-    color: #f8f9ff;
-    text-decoration: none;
-}
-
-.Signup
-{
-    align-content: flex-end;
-    align-items:flex-end;
-    text-transform: none;
-    color: #f8f9ff;
-    text-align: center;
-    padding: 10px 20px;
-    letter-spacing: 1px;
-    font-weight: bold;
-    background-color: #27a1a5;
-    text-decoration: none;
-    border-radius: 7%;
-    border: none;
-    float:inline-end;
-}
-.Signup a:hover
-{
-    background:#000000;
-}
-
-
-
