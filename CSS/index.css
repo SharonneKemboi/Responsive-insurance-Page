@@ -13,20 +13,14 @@ html{
 .cover-img {
     /* The image used */
     background-image: url("/Images/hero-cover.3.png" ); 
-    background: linear-gradient(to top, #252B42 50% );
-  
     height: 800px;
-  
     /* Centered and scaled the image*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment:scroll;
-
-  
     /* Needed to position the navbar */
     position: relative;
-    opacity: 0.8;
+    opacity: 0.55;
   
   }
   a{
