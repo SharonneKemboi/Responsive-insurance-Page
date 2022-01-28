@@ -28,4 +28,19 @@ html{
     opacity: 0.8;
   
   }
+  a{
+    text-decoration: none;
+    color: #f8f9ff;
+    
+}
+.Brand h1{
+    align-content: flex-start;
+    text-align: justify;
+    text-align-last: left;
+    color: #f8f9ff;
+    margin-left: 0%;
+    display: flex;
+    
+    
+}
   
