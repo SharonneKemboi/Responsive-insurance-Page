@@ -10,3 +10,22 @@ html{
     width: 100%;
     background-color: #252B42;
 }
+.cover-img {
+    /* The image used */
+    background-image: url("hero-cover.3.png" ); 
+  
+    height: 800px;
+  
+    /* Centered and scaled the image*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:initial;
+
+  
+    /* Needed to position the navbar */
+    position: relative;
+    opacity: 0.8;
+  
+  }
+  
