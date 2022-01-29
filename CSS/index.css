@@ -1,3 +1,6 @@
+/*as required for the IP use montserrat font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *
 {
     margin: 0;
@@ -9,6 +12,7 @@ html{
     height: 100%;
     width: 100%;
     background-color: #252B42;
+    font-family: 'Montserrat', sans-serif;
 }
 #cover-img {
     /* The image used */
@@ -17,15 +21,19 @@ html{
     /* Centered and scaled the image*/
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover; 
     /* Needed to position the navbar */
     position: relative;
     opacity: 0.75;
-  
   }
+
   a{
     text-decoration: none;
     color: #f8f9ff;
     
 }
+a:hover
+{
+    color: #f03b23;
+}
+    
