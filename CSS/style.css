@@ -148,7 +148,7 @@
     justify-content: center;
     position: relative;
     top: -75px; /*to set the banners3 class ton the top */
-   
+    opacity: 1.0;
  
    
 }
@@ -164,7 +164,7 @@
 }
 
 .Firstbanner, .Secondbanner{
-    border: 1px solid white;
+    border: 2px solid white;
     background-color: white;
     margin: 10px 20px;
     width: 24%;
@@ -181,6 +181,8 @@
     justify-content: center;
     background-color: white;
     padding-top: 100px;
+    padding-bottom: 100px;
+  
 }
 .peace, .set, .satisfaction{
     margin: 0px 20px;
@@ -189,7 +191,32 @@
 
 .peace i, .set i, .satisfaction i{
     color: #23A6F0;
-    font-size: 3rem;
+    font-size: 50px;
 }
+.third{
+    margin-top: 90px;
+}
+.top-section{
+    text-align: center;
+}
+.content-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+.person-img{
+    height: 200px;
+}
+
+.person1, .person2, .person3{
+    border: 0px solid #2a3358;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: white;
+}
+
     
     
