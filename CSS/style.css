@@ -261,4 +261,11 @@
     width: 280px;
     
 }
-    
+
+.first-one{
+    position: relative;
+    top: 350px;
+    text-align: center;
+    height: 200px;
+    padding: 50px;
+}
