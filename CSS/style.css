@@ -1,40 +1,39 @@
 
 .Brand h1{
     padding:170px;
-        color: #f8f9ff;
-    
+    color: #f8f9ff; 
         
-        
-        
-    }
-    
-    .nav-container
+    } 
+
+.nav-container
     {
         
-        font-style: normal;
-        display: flex;
-        width: 100%;
-        height: 10vh;
-        align-items: center;
-        justify-content: space-between;
-        padding: 4px 4px;
-        text-transform: none;
-        letter-spacing: 1px;
-        position:absolute;
-        text-decoration: none;
-        align-content: space-between;
-        top: 0px;
-        left: 0px;
+    font-style: normal;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 4px;
+    text-transform: none;
+    letter-spacing: 1px;
+    position:absolute;
+    text-decoration: none;
+    align-content: space-between;
+    top: 0px;
+    left: 0px;
         
     }
-    .topnav-right{
-        display:inline-block;
-        justify-content: space-between;
-        margin-right: 100px;
-        padding-left: 100px;
+
+.topnav-right{
+    display:inline-block;
+    justify-content: space-between;
+    margin-right: 100px;
+    padding-left: 100px;
     
-    }       
-    .nav-container ul
+    }    
+
+.nav-container ul
     {
       list-style:none;
       text-decoration: none;
@@ -42,7 +41,7 @@
       position: relative;
       
     }
-    .nav-container ul li
+.nav-container ul li
     {
      display: inline;
      font-weight: bold;
@@ -52,39 +51,43 @@
     
     
     }
-    .nav-container ul li a:hover
+
+.nav-container ul li a:hover
     {
       color:#f00606 ;
     }
-    .login{
-        text-align:justify;
-        justify-items: right;
-        color: #f8f9ff;
-        text-decoration: none;
+
+.login{
+    text-align:justify;
+    justify-items: right;
+    color: #f8f9ff;
+    text-decoration: none;
     }
     
-    .Signup
+.Signup
     {
-        align-content: flex-end;
-        align-items:flex-end;
-        text-transform: none;
-        color: #f8f9ff;
-        text-align: center;
-        padding: 10px 20px;
-        letter-spacing: 1px;
-        font-weight: bold;
-        background-color: #23A6F0;
-        text-decoration: none;
-        border-radius: 7%;
-        border: none;
-        float:inline-end;
-    }
-    .Signup a:hover
-    {
-        background:#000000;
+    align-content: flex-end;
+    align-items:flex-end;
+    text-transform: none;
+    color: #f8f9ff;
+    text-align: center;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: #23A6F0;
+    text-decoration: none;
+    border-radius: 7%;
+    border: none;
+    float:inline-end;
+    margin-top: -10px;
     }
 
-    .intro
+.Signup a:hover
+    {
+    background:#000000;
+    }
+
+.intro
 {
      max-width: 800px; /* Maximum width */
      position: relative;
@@ -116,20 +119,24 @@
 
 .button1{
     border-radius: 20%;
-    display: inline-block; 
+    display: flex; 
     background-color: #23A6F0;
-    text-transform: none;
     color: #f8f9ff;
     text-align: center;
     padding: 10px 20px;
     letter-spacing: 1px;
     font-weight: bold;
-    border: none;
-    
+    float: left;
+    border: 2px;
+    margin-top: 50px;
+    margin-left: 80px;
+ 
+  
+     
 }
 .button2{
     border-radius: 20%;
-    display: inline-block; 
+    display: inline; 
     background-color:#000000;
     opacity: 0.5;
     text-transform: none;
@@ -138,8 +145,10 @@
     padding: 10px 20px;
     letter-spacing: 1px;
     font-weight: bolder;
-    border: none;
-    
+    margin-top:  50px;
+    margin-left: -50%;
+   
+      
 }
 .banners3{
     display: flex;
@@ -246,7 +255,7 @@
     padding-left: 50px;
 }
 
-.subscribe button{
+.notification{
     width: 125px;
     color: white;
     background-color: #23A6F0;
@@ -314,8 +323,8 @@ h3{
 
   
 }
-
-.price>div>button{
+/*used a child selector to select all the children of the class price*/
+.price>div> .Try{
     background-color: #23A6F0;
     padding: 12.5px;
     margin-right: 50px;
@@ -483,6 +492,5 @@ footer img, .footer img{
 }
 footer>div{
     float: right;
-   
-    
+      
 }
