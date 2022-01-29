@@ -330,3 +330,124 @@ h3{
     list-style: none;
 }
 
+.branches{
+    background-color: #252B42;
+    position: relative;
+    top: 350px;
+    margin-top: 50px;
+    color: white;
+    height: 650px; 
+}
+.branches img{
+    height: 150px;
+
+}
+.global h3{
+    margin-left: 130px;
+    font-size: 2em;
+    margin-top: 0px;
+}
+.global p{
+    float: left;
+    text-align: justify;
+    margin-left: 125px;
+    margin-top: 30px;
+}
+.global img{
+    float: right;
+    margin-right: 125px;
+}
+.global {
+    padding: 50px;
+}
+.appointment{
+    background-color:#ffffff;
+    height: 535px;
+    color: rgb(0,0,0);
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    top: 75%;  
+    width: 50%;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    float: left;
+    height: 525px;
+    width: 60%;
+    margin-left: 10px;
+    margin-right: 5px;
+    
+    
+}
+.appointment img{
+    height: 535px;
+    float: left;
+}
+.book{
+    padding-bottom: 50px;
+    font-weight: bolder;
+    color: #252B42;
+    text-align: center;
+    padding-top: 20px;
+   
+}
+
+.submit{
+    background: #23A6F0;
+    color: #f8f9ff;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.name{
+    padding-bottom: 20px;
+}
+
+.Email{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.depart{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.time{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.bottom{
+    position: relative;
+    top: 875px;
+    color: #000;
+    height: 75px;
+}
+.bottom .contact{
+    float: left;
+    margin-left: 20%;
+}
+.bottom> .contact> .title{
+    font-size: 1.25em;
+    font-weight: 800;  
+}
+.bottom .Talk{
+    float: right;
+    margin-right: 20%;
+    background-color: #23A6F0;
+    padding: 15px;
+    border-radius: 2.5px;
+}
+.bottom .Talk a{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    background-color: white;
+    position: relative;
+    top: 885px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
