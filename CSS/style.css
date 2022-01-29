@@ -423,6 +423,8 @@ form{
     top: 875px;
     color: #000;
     height: 75px;
+    padding-bottom: 200px;
+    margin-top: -50%px;
 }
 .bottom .contact{
     float: left;
@@ -438,6 +440,7 @@ form{
     background-color: #23A6F0;
     padding: 15px;
     border-radius: 2.5px;
+  
 }
 .bottom .Talk a{
     text-decoration: none;
@@ -450,4 +453,36 @@ form{
     display: flex;
     justify-content: center;
     padding-top: 50px;
+    margin: 50px;
+}
+.footer ul{
+    margin: 0 50px;
+
+}
+.footer li{
+    padding: 5px;
+    list-style: none;
+}
+.footer li a{
+    text-decoration: none;
+    color: black;
+}
+.footer li:first-child{
+    font-weight: 900;
+}
+footer{
+    position: relative;
+    top: 885px;
+    margin-top: 15px;
+    padding: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+footer img, .footer img{
+    height: 18px;
+}
+footer>div{
+    float: right;
+   
+    
 }
