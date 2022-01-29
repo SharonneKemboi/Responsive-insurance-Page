@@ -7,6 +7,7 @@
         
         
     }
+    
     .nav-container
     {
         
@@ -40,6 +41,7 @@
     }
     .nav-responsive ul li a{
         color: #f8f9ff;
+        
     }
     .nav-container ul
     {
@@ -47,6 +49,7 @@
       text-decoration: none;
       color: #f8f9ff;
       position: relative;
+      
     }
     .nav-container ul li
     {
@@ -54,6 +57,7 @@
      font-weight: bold;
      padding: 0 1.3px ;
      text-decoration: none;
+     padding: 5px;
     
     
     }
@@ -145,9 +149,10 @@
 .button2{
     border-radius: 20%;
     display: inline-block; 
-    background-color:none;
+    background-color:#000000;
+    opacity: 0.5;
     text-transform: none;
-    color: #000707;
+    color: #feffff;
     text-align: center;
     padding: 10px 20px;
     letter-spacing: 1px;
