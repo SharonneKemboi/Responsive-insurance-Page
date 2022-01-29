@@ -9,10 +9,10 @@
   
 }
 html{
-    height: 100%;
+    height:100%;
     width: 100%;
-    background-color: #252B42;
     font-family: 'Montserrat', sans-serif;
+    background-color: #252B42;
 }
 #cover-img {
     /* The image used */
