@@ -220,6 +220,45 @@
 .star-rating{
     color: yellow;
 }
-
+/*styling the reach us section*/
+.Reachus-section{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.reachus-img{
+    display: inline;
+    width: 60px;
+    margin: 30px;
     
+}
+.subscribe{
+    background-image: linear-gradient(to right, #252B42, purple);
+    height: 100px;
+    margin: 12.5px 250px;
+    color: white;
+    padding: 25px;
+    border: solid white 1px;
+}
+.subscribe p{
+    font-weight: bold;
+    font-size: 1.5em;
+    float: left;
+    padding-left: 50px;
+}
+
+.subscribe button{
+    width: 125px;
+    color: white;
+    background-color: #23A6F0;
+}
+
+.subscribe input[type="text"], button{
+    height: 40px;
+    float: right;
+    border-radius: 4px;
+}
+.subscribe input[type="text"]{
+    width: 280px;
+    
+}
     
