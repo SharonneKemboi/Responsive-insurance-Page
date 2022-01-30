@@ -16,7 +16,7 @@ Landing page of a insurance website
 <p>This is a landing page of an insurance company website. It has different sections which summarizes what the company is all about. It shows their pricing and also where there office branches are across the world. Their users have also been featured with their reviews about the insurance services.</p>
 
 ### How To Access the Site
-The landing page is being hosted by GitHub Pages. The link to the page is:
+The landing page is being hosted by GitHub Pages. The link to the page is:https://sharonnekemboi.github.io/Responsive-insurance-Page/
 
 ### Requirements
 
