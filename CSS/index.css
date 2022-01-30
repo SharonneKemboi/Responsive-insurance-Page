@@ -2,40 +2,565 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
+
 }
-html{
-    height:100%;
+
+html {
+    height: 100%;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     background-color: #f2f3fa;
-  
+
 }
+
 #cover-img {
     /* The image used */
-    background-image: url("../Images/herocover.png" ); 
+    background-image: url("../Images/hero-cover.3.png");
     height: 800px;
     /* Centered and scaled the image*/
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     /* Needed to position the navbar */
     position: relative;
     opacity: 0.8;
-  }
+}
 
-  a{
+a {
     text-decoration: none;
     color: #f8f9ff;
-    
+
 }
-a:hover
-{
+
+a:hover {
     color: #f03b23;
 }
-    
+
+/* Mobile devices */
+
+@media screen and (max-width: 480px) {
+    .nav-container {
+        font-style: normal;
+        display: flex;
+        flex-direction: column;
+        float: left;
+        height: 100vh;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1px 1px;
+        text-transform: none;
+        letter-spacing: 1px;
+        position: absolute;
+        text-decoration: none;
+        align-content: space-between;
+
+
+    }
+
+
+    .Brand h1 {
+        margin-top: -150px;
+        color: #f8f9ff;
+
+    }
+   
+
+    .intro {
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: -90px;
+        flex-direction: column;
+        float: right;
+    }
+
+    .intro h2 {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: -5px;
+        text-align: center;
+        flex-direction: column;
+        font-size: 5px;
+
+    }
+
+    .intro p {
+
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 90px;
+        text-align: center;
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+
+    .button1 {
+        border-radius: 20%;
+        display: flex;
+        background-color: #23A6F0;
+        color: #f8f9ff;
+        text-align: center;
+        letter-spacing: 1px;
+        font-weight: bold;
+        float: left;
+        border: 2px;
+        flex-direction: column;
+
+
+
+    }
+
+    .button2 {
+        border-radius: 20%;
+        display: flex;
+        background-color: #000000;
+        opacity: 0.5;
+        text-transform: none;
+        color: #feffff;
+        text-align: center;
+        letter-spacing: 1px;
+        font-weight: bolder;
+        margin-right: -50%;
+        flex-direction: column;
+
+
+    }
+
+    .banners3 {
+        display:inline-block;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        opacity: 1.0;
+        flex-direction: column;
+      
+
+    }
+
+    .banners3 div {
+        margin-right: -200px;
+        padding: 5px 20px;
+        font-size: 0.9em;
+        float: right;
+
+    }
+
+    .user-img {
+        height: 70px;
+        /* resizing the image icon size*/
+    }
+
+    .Firstbanner,
+    .Secondbanner {
+        border: 2px solid white;
+        background-color: white;
+        margin: 10px 20px;
+        width: 24%;
+        height: 30vh;
+        flex-direction: column;
+        display:flex;
+    }
+
+    .Thirdbanner {
+        background-color: #23A6F0;
+        margin: 10px 20px;
+        flex-direction: column;
+    }
+
+    .second {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        flex-direction: column;
+
+    }
+
+    .peace,
+    .set,
+    .satisfaction {
+        margin: 0px 20px;
+        text-align: center;
+    }
+
+    .peace i,
+    .set i,
+    .satisfaction i {
+        color: #23A6F0;
+        font-size: 50px;
+    }
+
+    .third {
+        margin-top: 90px;
+    }
+
+    .top-section {
+        text-align: center;
+    }
+
+    .content-section {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 90px;
+        text-align: center;
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+
+    .person-img {
+        height: 200px;
+    }
+
+    .person1,
+    .person2,
+    .person3 {
+        border: 0px solid #2a3358;
+        border-radius: 8px;
+        padding: 30px;
+        background-color: white;
+    }
+
+    .star-rating {
+        color: yellow;
+    }
+
+    /*styling the reach us section*/
+    .Reachus-section {
+        margin-left: 250px;
+        margin-right: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reachus-img {
+        display: inline;
+        width: 60px;
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .subscribe {
+        background-image: linear-gradient(to right, #252B42, purple);
+        height: 100px;
+        margin: 12.5px 250px;
+        color: white;
+        padding: 25px;
+        border: solid white 1px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscribe p {
+        font-weight: bold;
+        font-size: 1.5em;
+        float: left;
+        padding-left: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .notification {
+        width: 125px;
+        color: white;
+        background-color: #23A6F0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscribe input[type="text"],
+    button {
+        height: 40px;
+        float: right;
+        border-radius: 4px;
+
+    }
+
+    .subscribe input[type="text"] {
+        width: 280px;
+
+    }
+
+    .packages {
+        position: relative;
+        top: 350px;
+        text-align: center;
+        height: 200px;
+        padding: 50px;
+        margin-top: -25%;
+        word-spacing: 2px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .packages h2 {
+        font-size: 40px;
+
+
+    }
+
+    .price {
+        position: relative;
+        top: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-left: -30px;
+        color: #252B42;
+        font-weight: 400px;
+        list-style: symbols();
+        flex-direction: column;
+    }
+
+    h3 {
+        padding-bottom: 20px;
+    }
+
+    .plain>p {
+        padding-bottom: 20px;
+    }
+
+    .full>p {
+        padding-bottom: 20px;
+    }
+
+    .price div {
+        border: solid 1px #23A6F0;
+        border-radius: 5px;
+        padding: 80px;
+        margin: 0px;
+        height: 500px;
+        width: 350px;
+    }
+
+    .price .full {
+        margin-top: -20px;
+        height: 520px;
+        background-color: #252B42;
+        color: white;
+
+
+    }
+
+    /*used a child selector to select all the children of the class price*/
+    .price>div>.Try {
+        background-color: #23A6F0;
+        padding: 12.5px;
+        margin-right: 50px;
+        margin-left: auto;
+        margin-top: 25px;
+
+    }
+
+    .price strong {
+        color: #23A6F0
+    }
+
+    .price ul li {
+        list-style: none;
+    }
+
+    .branches {
+        background-color: #252B42;
+        position: relative;
+        top: 350px;
+        margin-top: 50px;
+        color: white;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .branches img {
+        height: 150px;
+
+    }
+
+    .global h3 {
+        margin-left: 130px;
+        font-size: 2em;
+        margin-top: 0px;
+    }
+
+    .global p {
+        float: left;
+        text-align: justify;
+        margin-left: 125px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .global img {
+        float: right;
+        margin-right: 125px;
+    }
+
+    .global {
+        padding: 50px;
+    }
+
+    .appointment {
+        background-color: #ffffff;
+        height: 535px;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        left: 35%;
+        right: 35%;
+        top: 75%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        float: left;
+        height: 525px;
+        width: 60%;
+        margin-left: 10px;
+        margin-right: 5px;
+
+
+
+    }
+
+    .appointment img {
+        height: 535px;
+        float: left;
+    }
+
+    .book {
+        padding-bottom: 50px;
+        font-weight: bolder;
+        color: #252B42;
+        text-align: center;
+        padding-top: 20px;
+
+    }
+
+    .submit {
+        background: #23A6F0;
+        color: #f8f9ff;
+        border-radius: 5px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .name {
+        padding-bottom: 20px;
+    }
+
+    .Email {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .depart {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .time {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .bottom {
+        position: relative;
+        top: 875px;
+        color: #000;
+        height: 75px;
+        padding-bottom: 200px;
+        margin-top: -50%px;
+        flex-direction: column;
+    }
+
+    .bottom .contact {
+        float: left;
+        margin-left: 20%;
+    }
+
+    .bottom>.contact>.title {
+        font-size: 1.25em;
+        font-weight: 800;
+    }
+
+    .bottom .Talk {
+        float: right;
+        margin-right: 20%;
+        background-color: #23A6F0;
+        padding: 15px;
+        border-radius: 2.5px;
+
+    }
+
+    .bottom .Talk a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .footer {
+        background-color: white;
+        position: relative;
+        top: 885px;
+        display: flexbox;
+        justify-content: center;
+        padding-top: 50px;
+        margin: 50px;
+        flex-direction: column;
+    }
+
+    .footer ul {
+        margin: 0 50px;
+
+    }
+
+    .footer li {
+        padding: 5px;
+        list-style: none;
+    }
+
+    .footer li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .footer li:first-child {
+        font-weight: 900;
+    }
+
+    footer {
+        position: relative;
+        top: 885px;
+        margin-top: 15px;
+        padding: 25px;
+        margin-left: 20%;
+        margin-right: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer img,
+    .footer img {
+        height: 18px;
+    }
+
+    footer>div {
+        float: right;
+
+    }
+
+}

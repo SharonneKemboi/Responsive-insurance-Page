@@ -1,17 +1,4 @@
-#cover-img {
-    /* The image used */
-    background-image: url("../Images/herocover.png" ); 
-    height: 800px;
-    /* Centered and scaled the image*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    /* Needed to position the navbar */
-    position: relative;
-    opacity: 0.8;
-  }
-
-
+/*for web page*/
 .Brand h1{
     padding:170px;
     color: #f8f9ff; 
