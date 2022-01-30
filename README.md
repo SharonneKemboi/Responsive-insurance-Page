@@ -36,6 +36,8 @@ The landing page is being hosted by GitHub Pages. The link to the page is:
 * HTML - which was used to build the structure of the pages.
 
 * CSS - which was used to style the pages 
+## Reference
+*Responsive Landing Page Tutorial by Web Dev Simplified(https://www.youtube.com/watch?v=K8BigvW7sZU)
 
 ## License
 
