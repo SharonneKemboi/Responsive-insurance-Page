@@ -1,10 +1,11 @@
 /*for web page*/
+/*Brand name styling*/
 .Brand h1{
     padding:170px;
     color: #f8f9ff; 
         
     } 
-
+/*Navigation */
 .nav-container
     {
         
@@ -87,6 +88,7 @@
     background:#000000;
     }
 
+    /*Main intro*/
 .intro
 {
      max-width: 800px; /* Maximum width */
@@ -147,9 +149,9 @@
     font-weight: bolder;
     margin-top:  50px;
     margin-left: -50%;
-   
-      
+        
 }
+/*banners*/
 .banners3{
     display: flex;
     flex-wrap: nowrap;
@@ -158,7 +160,6 @@
     position: relative;
     top: -75px; /*to set the banners3 class ton the top */
     opacity: 1.0;
- 
    
 }
 .banners3 div{
@@ -166,7 +167,6 @@
     padding: 5px 20px;
     font-size: 0.9em;
     
-   
 }
 .user-img{
     height: 70px; /* resizing the image icon size*/
@@ -185,6 +185,7 @@
     width: 24%;
     height: 30vh;
 }
+/*second*/
 .second{
     display: flex;
     justify-content: center;
@@ -193,6 +194,7 @@
     padding-bottom: 100px;
   
 }
+/*icons*/
 .peace, .set, .satisfaction{
     margin: 0px 20px;
     text-align: center;
@@ -202,6 +204,7 @@
     color: #23A6F0;
     font-size: 50px;
 }
+/*Third section-industry*/
 .third{
     margin-top: 90px;
 }
@@ -226,6 +229,7 @@
     padding: 30px;
     background-color: white;
 }
+/*starrating*/
 .star-rating{
     color: yellow;
 }
@@ -270,15 +274,10 @@
     width: 280px;
     
 }
-
+/*Pricing and packages section*/
 .packages{
-    position: relative;
-    top: 350px;
     text-align: center;
-    height: 200px;
-    padding: 50px;
-    margin-top: -25%;
-    word-spacing: 2px;
+    margin-top: 50px;
 }
 .packages h2{
    font-size: 40px;
@@ -286,23 +285,35 @@
 
 }
 .price{
-    position: relative;
-    top: 300px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    margin-left: -30px;
-    color: #252B42;
-    font-weight: 400px;
-    list-style: symbols();
+    margin-top:80px ;
+    height: 400px;
 }
+.plain{
+    height: 350px;
+    width: 200px;
+    border: 1px solid #23A6F0;
+    border-radius: 5px;
+    text-align: center;
+}
+.price ul{
+    margin-left: -15px;
+    font-size: 10px;
+    margin: 3 4%;  
+}
+
 h3{
     padding-bottom: 20px;
 }
 .plain>p{
     padding-bottom: 20px;
 }
+    
+h3{
+ padding-bottom: 20px;
+}
+
 .full>p{
     padding-bottom: 20px;
 }
@@ -319,10 +330,9 @@ h3{
     margin-top: -20px;
     height: 520px;
     background-color: #252B42;
-    color: white;
-
-  
+    color: white;  
 }
+
 /*used a child selector to select all the children of the class price*/
 .price>div> .Try{
     background-color: #23A6F0;
@@ -337,8 +347,19 @@ h3{
 }
 .price ul li{
     list-style: none;
+    margin: 0 4%;
+    padding: 5px;
 }
-
+.price .Try{
+    background-color: #23A6F0;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: -20px;
+    
+}
+/*location section*/
 .branches{
     background-color: #252B42;
     position: relative;
@@ -379,6 +400,7 @@ h3{
     top: 75%;  
     width: 50%;
 }
+/*Form styling*/
 form{
     display: flex;
     flex-wrap: wrap;
@@ -455,6 +477,7 @@ form{
     text-decoration: none;
     color: white;
 }
+/*End scetion styling*/
 .footer{
     background-color: white;
     position: relative;
@@ -479,6 +502,7 @@ form{
 .footer li:first-child{
     font-weight: 900;
 }
+/*footer styling*/
 footer{
     position: relative;
     top: 885px;

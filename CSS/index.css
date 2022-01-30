@@ -22,9 +22,8 @@ html {
     background-image: url("../Images/hero-cover.3.png");
     height: 800px;
     /* Centered and scaled the image*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../Images/hero-cover.3.png");
+    height: 800px;
     /* Needed to position the navbar */
     position: relative;
     opacity: 0.8;
