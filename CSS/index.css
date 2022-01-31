@@ -22,11 +22,11 @@ html {
     background-image: url("../Images/hero-cover.3.png");
     height: 800px;
     /* Centered and scaled the image*/
-    background-image: url("../Images/hero-cover.3.png");
-    height: 800px;
-    /* Needed to position the navbar */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    opacity: 0.8;
+    opacity: 0.87;
 }
 
 a {
@@ -41,7 +41,7 @@ a:hover {
 
 /* Mobile devices */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .nav-container {
         font-style: normal;
         display: flex;
