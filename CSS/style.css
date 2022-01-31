@@ -231,7 +231,7 @@
 }
 /*starrating*/
 .star-rating{
-    color: yellow;
+    color: #F4D42B;
 }
 /*styling the reach us section*/
 .Reachus-section{
@@ -277,10 +277,12 @@
 /*Pricing and packages section*/
 .packages{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
+    color: black;
 }
 .packages h2{
    font-size: 40px;
+   font-weight: bold;
    
 
 }
@@ -296,26 +298,34 @@
     border: 1px solid #23A6F0;
     border-radius: 5px;
     text-align: center;
+    color: #252B42;
+    font-weight: 700;
 }
 .price ul{
     margin-left: -15px;
     font-size: 10px;
     margin: 3 4%;  
 }
-
-h3{
+.plain h2{
+    font-weight: bold;
     padding-bottom: 20px;
+    color: #252B42;
 }
-.plain>p{
-    padding-bottom: 20px;
+.full h2{
+    font-weight: bold;
+    padding-bottom: 20px; 
+}
+
+.plain p{
+    padding-bottom:10px;
+    color: #252B42;
+    padding-top: 20px;
 }
     
-h3{
- padding-bottom: 20px;
-}
 
 .full>p{
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 .price div{
     border: solid 1px #23A6F0;
@@ -350,13 +360,28 @@ h3{
     margin: 0 4%;
     padding: 5px;
 }
+ul.check{
+    text-align: justify;
+    
+}
+ul.check li{
+margin: 10px;
+}
+
+.check i{
+    color: green;
+}
+.check li i.unchecked{
+    color: gray;
+}
 .price .Try{
     background-color: #23A6F0;
     width: 150px;
-    height: 30px;
+    height: 50px;
     border-radius: 5px;
     margin-top: 20px;
     margin-left: -20px;
+    border: none;
     
 }
 /*location section*/
@@ -364,118 +389,95 @@ h3{
     background-color: #252B42;
     position: relative;
     top: 350px;
-    margin-top: 50px;
+    margin-top: 20px;
     color: white;
-    height: 650px; 
+    height: 600px; 
 }
 .branches img{
     height: 150px;
 
 }
-.global h3{
+.global h2{
     margin-left: 130px;
     font-size: 2em;
-    margin-top: 0px;
+    margin-top: -150px;
+    padding-top: 60px;
 }
 .global p{
     float: left;
     text-align: justify;
-    margin-left: 125px;
+    margin-left: 130px;
     margin-top: 30px;
 }
-.global img{
-    float: right;
-    margin-right: 125px;
-}
-.global {
-    padding: 50px;
-}
-.appointment{
-    background-color:#ffffff;
-    height: 535px;
-    color: rgb(0,0,0);
-    position: absolute;
-    left: 35%;
-    right: 35%;
-    top: 75%;  
-    width: 50%;
-}
-/*Form styling*/
-form{
+.global-img{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    float: left;
-    height: 525px;
-    width: 60%;
-    margin-left: 10px;
-    margin-right: 5px;
-    
-    
+    float: right;
+    width: 40%;
+
 }
-.appointment img{
-    height: 535px;
-    float: left;
+
+/*Form styling*/
+.appointment{
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+    position: relative;
+    top: -300px;
 }
-.book{
-    padding-bottom: 50px;
-    font-weight: bolder;
-    color: #252B42;
+.myform{
+    width: 40%;
+    background-color: #fffafa;
+    padding: 30px 10px;
+    border: none;
+}
+.myform h2{
     text-align: center;
-    padding-top: 20px;
-   
 }
-
+/*button*/
 .submit{
-    background: #23A6F0;
-    color: #f8f9ff;
-    border-radius: 5px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-}
-.name{
-    padding-bottom: 20px;
+    align-items: center;
+    width: 100%;
+    background-color: #23A6F0;
+    color: #feffff;
+    font-weight: bold;
+    border: none;
 }
 
-.Email{
-    padding-bottom: 20px;
-    padding-top: 20px;
+.contact-cover{
+    height: 500px;
 }
-.depart{
-    padding-bottom: 20px;
-    padding-top: 20px;
+
+.myform input, .myform select{
+    height: 50px;
+    width: 100%;
+    background-color: #2a33580a;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+    text-align:justify;
+    padding-left: 10px;
+    
 }
-.time{
-    padding-bottom: 20px;
-    padding-top: 20px;
+.myform label{
+    font-weight: bold;
+    font-size: 15px;
 }
 .bottom{
-    position: relative;
-    top: 875px;
-    color: #000;
-    height: 75px;
-    padding-bottom: 200px;
-    margin-top: -50%px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -900px;
+    margin-top: -200px;
+    align-items: center;
 }
-.bottom .contact{
-    float: left;
-    margin-left: 20%;
+.bottom h2{
+    padding-bottom: 15px;
 }
-.bottom> .contact> .title{
-    font-size: 1.25em;
-    font-weight: 800;  
-}
-.bottom .Talk{
-    float: right;
-    margin-right: 20%;
+.contact1{
     background-color: #23A6F0;
-    padding: 15px;
-    border-radius: 2.5px;
-  
-}
-.bottom .Talk a{
-    text-decoration: none;
-    color: white;
+    color: #fffafa;
+    padding: 20px;
+    border-radius: 5px;
+    width: 12%;
 }
 /*End scetion styling*/
 .footer{
@@ -512,7 +514,7 @@ footer{
     margin-right: 20%;
 }
 footer img, .footer img{
-    height: 18px;
+    height: 20px;
 }
 footer>div{
     float: right;
