@@ -160,45 +160,45 @@
    <!--Packages Flyers-->
    <div class="price">
      <div class="plain">
-       <h3>FREE</h3>
-       <h5>Organize across all <br>apps by hand</h5>
-       <p><strong>0 per month</strong></p>
-       <ul>
-        <li><i class="fa fa-check-circle"></i>Unlimited Product updates</li>
-        <li><i class="fa fa-check-circle"></i>Unlimited product updates</li>
-        <li><i class="fa fa-check-circle"></i>Unlimited product updates</li>
-        <li><i class="fa fa-check-circle"></i>1GB cloud storage</li>
-        <li><i class="fa fa-check-circle"></i>Email and community support</li>
+       <h2>FREE</h2>
+       <h3>Organize across all <br>apps by hand</h3>
+       <p class="charge"><strong class="big">0<sup><sup>$</sup></sup></strong>per month</p>
+       <ul class="check">
+        <li><i class="fas fa-check-circle"></i>Unlimited Product updates</li>
+        <li><i class="fas fa-check-circle"></i>Unlimited product updates</li>
+        <li><i class="fas fa-check-circle"></i>Unlimited product updates</li>
+        <li><i class="fas fa-check-circle unchecked"></i>1GB cloud storage</li>
+        <li><i class="fas fa-check-circle unchecked"></i>Email and community support</li>
  
     <button class="Try"><a href="#">Try for Free</a></button>
   </ul>
   </div>
   <div class="full">
-    <h3>STANDARD</h3>
-    <p>Organize across all apps by hand</p>
-    <p><strong>9.99 per month</strong></p>
-    <ul>
-      <li><i class="fa fa-check-circle"></i>Unlimited Product updates</li>
-      <li><i class="fa fa-check-circle"></i>Unlimited product updates</li>
-      <li><i class="fa fa-check-circle"></i>Unlimited product updates</li>
-      <li><i class="fa fa-check-circle"></i>1GB cloud storage</li>
-      <li><i class="fa fa-check-circle"></i>Email and community support</li>
+    <h2>STANDARD</h2>
+    <h3>Organize across all apps by hand</h3>
+    <p class="charge"><strong class="big">9.9 <sup><sup>$</sup></sup></strong>per month</p>
+    <ul class="check">
+      <li><i class="fas fa-check-circle"></i>Unlimited Product updates</li>
+      <li><i class="fas fa-check-circle"></i>Unlimited product updates</li>
+      <li><i class="fas fa-check-circle"></i>Unlimited product updates</li>
+      <li><i class="fas fa-check-circle unchecked"></i>1GB cloud storage</li>
+      <li><i class="fas fa-check-circle unchecked"></i>Email and community support</li>
   </ul>
   
   <button class="Try"><a href="#">Try for Free</a></button>
   
   </div>
   <div class="plain">
-    <h3>PREMIUM</h3>
-    <p>Organize across all apps by hand</p>
-    <p><strong>19.9 per month</strong></p>
+    <h2>PREMIUM</h2>
+    <h3>Organize across all apps by hand</h3>
+    <p class="charge"><strong class="big">19.9 <sup><sup>$</sup></sup></strong>per month</p>
     
-    <ul>
-      <li><i class="fa fa-check-circle">Unlimited Product updates</i></li>
-      <li><i class="fa fa-check-circle"></i>Unlimited product updates</li>
-      <li><i class="fa fa-check-circle"></i>Unlimited product updates</li>
-      <li><i class="fa fa-check-circle"></i>1GB cloud storage</li>
-      <li><i class="fa fa-check-circle"></i>Email and community support</li>
+    <ul class="check">
+      <li><i class="fas fa-check-circle"></i>Unlimited Product updates</i></li>
+      <li><i class="fas fa-check-circle"></i>Unlimited product updates</li>
+      <li><i class="fas fa-check-circle"></i>Unlimited product updates</li>
+      <li><i class="fas fa-check-circle unchecked"></i>1GB cloud storage</li>
+      <li><i class="fas fa-check-circle unchecked"></i>Email and community support</li>
     </ul>
       <button class="Try"><a href="#">Try for Free</a></button>
   </div>
@@ -210,41 +210,52 @@
  <section class="location">
    <div class="branches">
      <div class="global">
-    <h3>We have branches all <br> over the world</h3>
+    <h2>We have branches all <br> over the world</h2>
     <p>The gradual accumulation of information about the atomic and <br>small scale behavior during the first quarter of the 20th <br>century,which gave some indications about how small things<br>do behave,produced an increasing confusion which was<br>heisenburg and born</p>
-    <img src="./Images/pngwing 1.png" alt="map">
   </div> 
+  <div class="global-img">
+  <img src="./Images/pngwing 1.png" alt="map" class="map"> 
+</div>
+   </div>
+ </section>
 
+<!--Form section-->
+ <section class="contact">
   <div class="appointment">
-    <img src="./Images/contact-cover.2.png"alt="">
-    <!--This will create a form-->
-    <form>
-      <legend class="book">Book Appointment</legend>
-      <label class="name">Name*</label> 
-      <input type="text" placeholder="Full Name">
-      <label class="Email">Email address *</label>
-      <input type="text" placeholder="example@gmail.com">
-      <label class="depart">Department *</label>
-      <input type="">
-      <label class="time"> Time *</label>
-      <input type="text" name="time">
-    
+    <img src="./Images/contact-cover.2.png"alt="contact-cover" class="contact-cover">
+    <!--This form element represents a document section containing interactive controls for submitting information.-->
+    <form action="." method="post" class="myform">
+      <h2>Book Appointment</h2>
+      <label for="name">Name*</label><br>
+      <input type="text" id="name" placeholder="Full Name *">
+      <label for="Email">Email address *</label><br>
+      <input type="text" id="email" placeholder="example@gmail.com">
+      <label for="depart">Department *</label><br>
+      <select name="Department" id="depart">
+        <option value="">Please choose</option>
+        <option value="depart1">insure for kids</option>
+        <option value="depart2">insure for adults</option>  
+      </select>
+      <label for="time"> Time *</label><br>
+      <select name="Time" id="time">
+      <option value="4">4.00 Available</option>
+      <option value="6">6.00 Available</option>
+      <option value="7">7.00 Available</option>
+      </select>
+      <br>
      <button class="submit">Book Appointment</button>
       
     </form>
 
   </div>
   <div class="bottom">
-    <div class="contact">
-      <p class="title">Consulting Agency For Your Business</p>
-      <p>the quick fox jumps over the lazy dog</p> 
+    <div>
+        <h2>Consulting Agency For Your Business</h2>
+        <p>the quick fox jumps over the lazy dog</p> 
     </div>
-    <div class="Talk"><a href="#">Contact Us</a></div>
-
+    <div class="contact1"><a href="#"class="talk-to-us">Contact Us</a>
   </div>
   </div>
-  
-
  </section>
 
  <section class="End">
